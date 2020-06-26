@@ -11,16 +11,24 @@ state = {
       id: 1,
       title: 'Take out the rubbish',
       completed: false
+    },
+    {
+      id: 2,
+      title: 'Make the beds',
+      completed: false
+    },
+    {
+      id: 3,
+      title: 'Clean the bathroom',
+      completed: false
     }
   ]
 }
 
-
-
   render() {
     return (
       <div className="App">
-       <Todos />
+       <Todos todos={this.state.todos} />
       </div>
     );
   }
