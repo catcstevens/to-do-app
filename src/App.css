@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 body {
   font-family: Arial, Helvitca, san-serif;
   line-height: 1.4;
+ 
 }
 
 a {
@@ -15,7 +15,7 @@ a {
 }
 
 .container {
-  padding: 0 1rem;
+  padding: 10px 40px 0 40px;
 }
 
 .btn {
